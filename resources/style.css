@@ -1,4 +1,22 @@
+main    {
+    text-align: center;
+}
 header  {
     background-color: hsl(356, 84%, 55%);
+    border-radius: 1em;
     text-align: left;
+    height: 10em;
 }
+
+header div  {
+    margin-left: 1em;
+}
+
+.magic  {
+    width: 20%;
+}
+
+.magic img  {
+    max-width: 100%;
+}
+

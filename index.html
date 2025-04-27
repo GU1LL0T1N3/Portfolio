@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./resources/style.css">
+        <link rel="stylesheet" href="./resources/style.css">
         <title>Kwen's Code Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Code Kwen</h1>
-            <h2>Welcome to my portfolio!</h2>
+            <div>
+                <h1>Code Kwen</h1>
+                <h2>Welcome to my portfolio!</h2>
+                <nav>
+                    <p><a href="#projects">Projects</a></p>
+                </nav>
+            </div>
         </header>
         <main>
             <div class="intro">
                 My name is Tyler Kwentez Anderson, but my friends call me Kwen. This 
                 website is a collection of my projects from my adventure into learning 
                 full-stack development.
+            </div>
+            <div id="projects">
+                <h3>My Previous Projects</h3>
+                <figure class="magic">
+                    <h4>Mixed-Messages</h4>
+                    <a href="https://github.com/GU1LL0T1N3/Mixed-Messages" target="_blank">
+                    <img src="./resources/imgs/planeswalker_symbol.jpg" alt="clickable link image of the planeswalker symbol 
+                    from the trading card game Magic: The Gathering"/>
+                    </a>
+                    <figcaption>A random message generator based on Magic: The Gathering.(Github link)<br>
+                    <i>Art by <a href="https://www.deviantart.com/spuriusantonius/art/Multiverse-252663934" target="_blank">
+                    SpuriusAntonius from Deviant Art</a></i></figcaption>
+                </figure>
             </div>
         </main>
     </body>
