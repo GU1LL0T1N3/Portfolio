@@ -1,15 +1,65 @@
+*   {
+    font-family: "Host Grotesk", sans-serif;
+}
+
+body    {
+    background-color: rgb(255, 235, 210);
+}
+
 main    {
     text-align: center;
 }
+
+nav {
+    position: relative;
+    float: right;
+    margin-right: 1em;
+    top: 2.5em;
+}
+
+nav img {
+    width: 1.4em;
+    position: relative;
+    bottom: -3px;
+}
+
+#github-link    {
+    font-size: 1.3em;
+}
+
 header  {
     background-color: hsl(356, 84%, 55%);
     border-radius: 1em;
     text-align: left;
-    height: 10em;
+    height: 22em;
 }
 
 header div  {
+    width: auto;
     margin-left: 1em;
+}
+
+h1   {
+    font-size: 9em;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+h2  {
+    font-size: 2.3em;
+    width: 100%;
+    position: relative;
+    margin: 3px 0;
+}
+
+h3  {
+    font-size: 1.8em;
+}
+
+.intro  {
+    margin: 3em;
+    font-size: 1.5em;
 }
 
 .magic  {
