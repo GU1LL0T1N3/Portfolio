@@ -9,7 +9,7 @@ body    {
 main    {
     text-align: center;
 }
-
+/*Header Section*/
 nav {
     position: relative;
     float: right;
@@ -52,7 +52,7 @@ h2  {
     position: relative;
     margin: 3px 0;
 }
-
+/*Projects Section*/
 h3  {
     font-size: 1.8em;
 }
@@ -70,3 +70,28 @@ h3  {
     max-width: 100%;
 }
 
+#projects   {
+    display: flex;
+}
+
+#mm-button  {
+    width: 7em;
+    background-color: rgb(48, 116, 253);
+    border-radius: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+/*Footer Section*/
+#me {
+    max-width: 10em;
+}
+/*Responsive design section*/
+@media only screen and (max-width: 780px)   {
+    h1  {
+        font-size: 4em;
+    }
+    h2  {
+        width: 6em;
+        top: 1em;
+    }
+}

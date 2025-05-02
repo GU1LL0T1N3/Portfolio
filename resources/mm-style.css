@@ -1,0 +1,67 @@
+*   {
+    font-family: "Host Grotesk", sans-serif;
+}
+
+body    {
+    background-color: rgb(255, 235, 210);
+}
+
+main    {
+    text-align: center;
+}
+
+header  {
+    background-color: rgb(44, 0, 86);
+    height: auto;
+    border-radius: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1  {
+    font-size: 4rem;
+    color: rgb(0, 255, 81);
+    text-align: center;
+    margin: 0 auto;
+}
+
+a:link  {
+    color: red;
+}
+
+a:visited   {
+    color: red;
+}
+
+#returnHome {
+    position: relative;
+    margin-left: 15px;
+}
+
+#magicClick {
+    font-family: "New Rocker", sans-serif;
+    font-size: 1.7em;
+    height: 3rem;
+    width: 10rem;
+}
+
+#generatedMessage   {
+    height: auto;
+    width: 60%;
+    font-family: 'New Rocker', sans-serif;
+    font-size: 4em;
+    border: 1px solid grey;
+    margin: 0.5em auto;
+}
+
+li  {
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: 65%;
+    background-image: url(./imgs/mtg-logo.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    background-position: left center;
+    text-align: left;
+}

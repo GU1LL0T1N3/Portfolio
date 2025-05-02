@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./resources/mm-style.css"/>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0"/>
+        <title>Mixed-Messages</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Mixed Messages: MTG Version
+            </h1>
+            <nav>
+                <a href="./index.html" id="returnHome">Homepage</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h2>
+                    Click this button to generate a random message based on the card game Magic: The Gathering!
+                </h2>
+                <button id="magicClick">Click Here</button>
+            </div>
+            <div id="magicMessage">
+                <p id="generatedMessage">
+
+                </p>
+            </div>
+            <section role="complementary" id="context">
+                <h3>
+                    Context for the messages:<br>
+                    <i>(For more detailed explainations, click on the terms and check out the mtg wiki.)</i>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="https://mtg.fandom.com/wiki/Multicolored">Colors</a>: 
+                        The five colors of mana in MTG are White, Blue, Black, Red, and Green.
+                        (There also exists colorless!)
+                    </li>
+                    <li>
+                        <a href="https://mtg.fandom.com/wiki/Multicolored#Wedges">Wedge</a>/
+                        <a href="https://mtg.fandom.com/wiki/Multicolored#Shards">Shard</a>: 
+                        These are used depending on the relationship between the primary and secondary colors of each group/clan.
+                    </li>
+                    <li>
+                        <a href="https://mtg.fandom.com/wiki/Multicolored#Color_triples">
+                        Clan Names</a> of shards/wedges: 
+                        These are the in-universe names of the groups/clans who represent their respected tri-color pairings. 
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <script src="./resources/mm-script.js"></script>
+    </body>
+</html>
