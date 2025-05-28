@@ -81,6 +81,10 @@ h3  {
     margin-top: 15px;
     border: 1px solid black;
 }
+
+#mm-button a    {
+    color: black;
+}
 /*Footer Section*/
 #me {
     max-width: 10em;
